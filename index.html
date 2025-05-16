@@ -239,6 +239,20 @@
             </div>
         </div>
     </div>
+    <div class="container my-4">
+        <div class="row justify-content-center g-3">
+          <div class="col-12 col-sm-6 col-md-4">
+            <video src="videos/VID1.mp4" controls class="w-100 rounded"></video>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <video src="videos/VID2.mp4" controls class="w-100 rounded"></video>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <video src="videos/VID3.mp4" controls class="w-100 rounded"></video>
+          </div>
+        </div>
+      </div>
+    
     <div class="container p-2" id="contact">
         <div class="card-header bg-primary text-center text-white fw-bold">
             <h1>Contactez-nous</h1>
@@ -263,6 +277,7 @@
                     </div>
                 </div>
                 
+                
     
             </div>
 
@@ -270,7 +285,9 @@
         <br><br><br>
     </div>
     <!-- Footer -->
+    
     <footer class="bg-primary text-white text-center text-lg-start mt-5 m-1 animate__animated animate__fadeInUp">
+       
         <div class="container p-1">
           <div class="row">
             <!-- À propos -->
@@ -374,11 +391,7 @@
 
 
 const chaines = [
-  { nom: "Vidéo 1", prix: "Gratuit", lien: "videos/video1.mp4" },
-  { nom: "Vidéo 2", prix: "Gratuit", lien: "videos/video2.mp4" },
-  { nom: "Vidéo 3", prix: "Gratuit", lien: "videos/video3.mp4" },
-  { nom: "Vidéo 4", prix: "Gratuit", lien: "videos/video4.mp4" },
-  { nom: "Vidéo 5", prix: "Gratuit", lien: "videos/video5.mp4" },
+ 
 ];
 
 
@@ -502,7 +515,7 @@ const autresProduits1 = [
 
     var numeroWhatsApp = "+221777205051"; // Remplacez par votre vrai numéro (ex: +777205051 pour le Sénégal)
     
-    var message = `Bonjour, je m'appelle  ${nom} ,j'habite à ${Adress}. Je suis intéressé par ces produits. Puis-je capturer les produits que j'ai sélectionnés et vous les envoyer sur WhatsApp pour que vous puissiez me communiquer les prix ?`;    var whatsappLink = `https://wa.me/${numeroWhatsApp}?text=${message}`;
+    var message = `Bonjour, je m'appelle ,j'habite à  ${nom}. Je suis intéressé par ces produits. Puis-je capturer les produits que j'ai sélectionnés et vous les envoyer sur WhatsApp pour que vous puissiez me communiquer les prix ?`;    var whatsappLink = `https://wa.me/${numeroWhatsApp}?text=${message}`;
 
     window.location.href = whatsappLink;
 }
